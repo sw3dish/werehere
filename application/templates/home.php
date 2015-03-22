@@ -16,12 +16,8 @@
 
 {% block content %}
 	<div id="content" class="container-fluid">
-		<div class="row">
-			<div id="left" class="col-md-6">
-			</div>
-			<div id="right" class="col-md-6">
-			</div>
-		</div>
+		<h1> We're Here </h1>
+
 	</div>
 {% endblock %}
 

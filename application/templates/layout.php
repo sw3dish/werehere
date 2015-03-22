@@ -10,8 +10,9 @@
         <link rel="icon" href="">
 
         <!-- Stylesheets -->
-        <link rel="stylesheet" href="/library/css/font-awesome-4.2.0/css/font-awesome.css">
-        <link rel="stylesheet" href="/library/css/bootstrap.css">
+        <link rel="stylesheet" href="/application/library/css/font-awesome-4.2.0/css/font-awesome.css">
+        <link rel="stylesheet" href="/application/library/css/bootstrap.css">
+        <link rel="stylesheet" href="/application/library/css/global_styles.css">
 
     	{% block stylesheets %} {% endblock %}
 
@@ -22,9 +23,9 @@
             
         </div>
         <!-- Scripts -->
-        <script src="/library/js/jquery-2.1.1.js"></script>
-        <script src="/library/js/modernizr.js"></script>
-        <script src="/library/js/bootstrap.js"></script>
+        <script src="/application/library/js/jquery-2.1.1.js"></script>
+        <script src="/application/library/js/modernizr.js"></script>
+        <script src="/application/library/js/bootstrap.js"></script>
         {% block javascripts %}{% endblock %}
     </body>
 </html>
