@@ -13,8 +13,9 @@
         <link rel="stylesheet" href="/application/library/css/font-awesome-4.2.0/css/font-awesome.css">
         <link rel="stylesheet" href="/application/library/css/bootstrap.css">
         <link rel="stylesheet" href="/application/library/css/global_styles.css">
-
-    	{% block stylesheets %} {% endblock %}
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    	<link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
+        {% block stylesheets %} {% endblock %}
 
     </head>
     <body class="{% block body_type %}{% endblock %}">

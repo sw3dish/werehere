@@ -1,8 +1,8 @@
 <?php
+//home get route
+$app->get('/', "show_home");
+//home post route
+$app->post('/', "submit_home");
 
-//home route
-$app->get('/', function() use ($app) {
-	return $app->render('home.php', array(
-	
-	));
-});
+
+?>
